@@ -11,6 +11,7 @@ const NavBar = () => {
     <div className="flex bg-slate-200 p-3 space-x-3">
         <Link href="/" className="mr-5">Next.js</Link>
         <Link href="/users">Users</Link>
+        <Link href="/djungel">Djungelmatte</Link>
         { status === 'loading' && <div>Loading</div>}
         { status === 'authenticated' && 
           <div>
